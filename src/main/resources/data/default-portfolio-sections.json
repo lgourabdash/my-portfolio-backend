@@ -1,0 +1,220 @@
+{
+  "nav": {
+    "brandLine": "L. Gourab",
+    "brandAccent": "Dash",
+    "items": [
+      { "to": "home", "label": "Home" },
+      { "to": "about", "label": "About" },
+      { "to": "skills", "label": "Skills" },
+      { "to": "projects", "label": "Projects" },
+      { "to": "experience", "label": "Experience" },
+      { "to": "education", "label": "Education" },
+      { "to": "contact", "label": "Contact" }
+    ]
+  },
+  "projects_meta": {
+    "githubUser": "lgourabdash",
+    "repoSettings": []
+  },
+  "labels": {
+    "about": { "eyebrow": "Profile", "title": "Introduction" },
+    "skills": { "eyebrow": "Stack", "title": "Skills" },
+    "projects": { "eyebrow": "Portfolio", "title": "Projects" },
+    "experience": {
+      "eyebrow": "Career",
+      "title": "Experience",
+      "latestBadge": "Latest"
+    },
+    "education": { "eyebrow": "Academic path", "title": "Education" },
+    "contact": { "eyebrow": "Connect", "title": "Contact & profiles" }
+  },
+  "about_sidebar": {
+    "pageEyebrow": "Profile",
+    "pageTitle": "Introduction",
+    "name": "L. Gourab Dash",
+    "role": "Full-stack · Java & React",
+    "highlights": [
+      { "icon": "bi-geo-alt", "label": "Location", "value": "Bengaluru, India" },
+      { "icon": "bi-mortarboard", "label": "Education", "value": "B.Tech CSE · 8.75 CGPA" },
+      { "icon": "bi-code-slash", "label": "Focus", "value": "Java · Spring · React" },
+      { "icon": "bi-briefcase", "label": "Path", "value": "Full-stack development" }
+    ]
+  },
+  "home": {
+    "photoAlt": "L. Gourab Dash",
+    "badge": "Open to full-stack roles",
+    "badgeIcon": "bi-stars",
+    "extraBadges": [],
+    "heroPrefix": "I am",
+    "heroLead": "",
+    "typewriterName": "L. Gourab Dash",
+    "roleLines": [
+      "Full Stack Java Developer",
+      "Software Developer",
+      "React & Spring Boot Developer"
+    ],
+    "linkedinUrl": "https://www.linkedin.com/in/l-gourab-dash-01931423b/",
+    "downloadCvLabel": "Download CV",
+    "contactCtaLabel": "Contact me",
+    "viewWorkLabel": "View work",
+    "linkedinButtonLabel": "LinkedIn"
+  },
+  "contact": {
+    "eyebrow": "Connect",
+    "title": "Get in touch",
+    "headline": "Let's build something solid.",
+    "body": "I'm open to full-stack and backend-oriented roles where Java, Spring, and React meet clear product goals. Reach out by email, phone, or professional profiles — I respond as soon as I can.",
+    "linkedin": "https://www.linkedin.com/in/l-gourab-dash-01931423b/",
+    "github": "https://github.com/lgourabdash",
+    "phone": "+91 9898484857",
+    "email": "lgourabdash966@gmail.com",
+    "linkedinTitle": "LinkedIn",
+    "linkedinSubtitle": "Profile & messaging",
+    "githubTitle": "GitHub",
+    "githubSubtitle": "Code & repositories",
+    "phoneTitle": "Phone",
+    "phoneSubtitle": "Voice & WhatsApp",
+    "emailTitle": "Email",
+    "emailSubtitle": "Direct messages",
+    "extraCards": []
+  },
+  "footer": {
+    "copyrightName": "L. Gourab Dash"
+  },
+  "skills": [
+    {
+      "category": "Programming Languages",
+      "items": [
+        { "name": "Java", "percent": 75 },
+        { "name": "Java 8", "percent": 85 },
+        { "name": "OOPS", "percent": 80 },
+        { "name": "DSA", "percent": 75 },
+        { "name": "HTML", "percent": 85 },
+        { "name": "CSS", "percent": 80 },
+        { "name": "JavaScript", "percent": 70 }
+      ]
+    },
+    {
+      "category": "Frameworks",
+      "items": [
+        { "name": "Spring Boot", "percent": 75 },
+        { "name": "Hibernate", "percent": 70 },
+        { "name": "JDBC", "percent": 80 },
+        { "name": "jQuery", "percent": 60 },
+        { "name": "Servlets", "percent": 70 },
+        { "name": "Bootstrap", "percent": 85 },
+        { "name": "React JS", "percent": 80 }
+      ]
+    },
+    {
+      "category": "Tools & Technologies",
+      "items": [
+        { "name": "Git", "percent": 85 },
+        { "name": "GitHub", "percent": 85 },
+        { "name": "VS Code", "percent": 90 },
+        { "name": "Eclipse", "percent": 75 },
+        { "name": "IntelliJ", "percent": 70 }
+      ]
+    },
+    {
+      "category": "Operating System",
+      "items": [
+        { "name": "Windows", "percent": 95 },
+        { "name": "Linux", "percent": 65 }
+      ]
+    },
+    {
+      "category": "Database",
+      "items": [{ "name": "MySQL", "percent": 75 }]
+    },
+    {
+      "category": "Cloud Console",
+      "items": [{ "name": "Firebase", "percent": 70 }]
+    },
+    {
+      "category": "Servers",
+      "items": [{ "name": "Tomcat 9.0", "percent": 80 }]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.Tech. in Computer Science and Engineering",
+      "institute": "Seemanta Engineering College",
+      "date": "Dec 2021 – May 2025",
+      "result": "8.75 CGPA",
+      "level": "Undergraduate",
+      "board": "Biju Patnaik University of Technology (BPUT)"
+    },
+    {
+      "degree": "+2 Science (Higher Secondary)",
+      "institute": "Sai Higher Secondary School",
+      "date": "Jul 2019 – Jun 2021",
+      "result": "63.16%",
+      "level": "Higher secondary",
+      "board": "Council of Higher Secondary Education, Odisha"
+    },
+    {
+      "degree": "Matriculation (10th)",
+      "institute": "Udala High School",
+      "date": "Mar 2018 – Feb 2019",
+      "result": "60.33%",
+      "level": "Secondary",
+      "board": "Board of Secondary Education, Odisha"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Coding Ninjas",
+      "role": "Full Stack Java Developer",
+      "date": "Dec 2023 – Present",
+      "location": "Delhi",
+      "workType": "Remote",
+      "skills": "Java, React JS, Firebase, Spring Boot, Bootstrap, jQuery, MySQL",
+      "projects": ["Holi Greeting App"],
+      "certificate": "#",
+      "summary": "Building full-stack features with Java, React, and Firebase while strengthening Spring Boot and MySQL skills on live-style projects.",
+      "sortOrder": 0,
+      "isLatest": true
+    },
+    {
+      "company": "JSpiders - Training & Development Center",
+      "role": "Full Stack Java Developer",
+      "date": "Jan 2025 – Present",
+      "location": "Bengaluru",
+      "workType": "Remote",
+      "skills": "Java, Java 8, OOPS, DSA, HTML, CSS, JavaScript, SQL",
+      "projects": ["Mini Shopping Cart"],
+      "certificate": "#",
+      "summary": "Intensive Java and web stack training with emphasis on OOP, DSA, and end-to-end mini applications.",
+      "sortOrder": 1,
+      "isLatest": false
+    },
+    {
+      "company": "Acmegrade",
+      "role": "Frontend Developer",
+      "date": "Jan 2025 – Mar 2025",
+      "location": "Hyderabad",
+      "workType": "Hybrid",
+      "skills": "HTML, CSS, JavaScript",
+      "projects": ["Portfolio Page"],
+      "certificate": "#",
+      "summary": "Frontend internship focused on responsive UI, clean structure, and a polished portfolio deliverable.",
+      "sortOrder": 2,
+      "isLatest": false
+    },
+    {
+      "company": "Dream Tech",
+      "role": "Java Developer",
+      "date": "Jan 2025 – Mar 2025",
+      "location": "Hyderabad",
+      "workType": "Remote",
+      "skills": "JSP, JDBC, JavaScript, MySQL",
+      "projects": ["Online Charity Management System"],
+      "certificate": "#",
+      "summary": "Server-side Java with JSP and JDBC on a charity management system, integrating MySQL and client-side scripting.",
+      "sortOrder": 3,
+      "isLatest": false
+    }
+  ]
+}
+
