@@ -1,6 +1,7 @@
 package com.lgourabdash.portfolio;
 
 import com.fasterxml.jackson.databind.JsonNode;
+import jakarta.servlet.http.HttpServletRequest;
 import java.util.Map;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -26,10 +27,11 @@ public class PortfolioSectionController {
 
     @PutMapping("/api/admin/sections/{key}")
     public ResponseEntity<String> upsertSection(
+            HttpServletRequest request,
             @PathVariable String key,
             @RequestBody JsonNode body,
             @RequestHeader(value = "X-Admin-Key", required = false) String adminKey) {
-        if (!adminKeyService.authorize(adminKey)) {
+        if (!adminKeyService.authorize(request, adminKey)) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid admin key");
         }
         try {

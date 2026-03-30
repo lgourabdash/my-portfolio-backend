@@ -1,5 +1,6 @@
 package com.lgourabdash.portfolio;
 
+import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
@@ -18,5 +19,17 @@ public class AdminKeyService {
             return true;
         }
         return apiKey.equals(headerValue);
+    }
+
+    /**
+     * After {@link AdminClientIpFilter} verified a Firebase admin, mutating admin routes do not
+     * require {@code X-Admin-Key}.
+     */
+    public boolean authorize(HttpServletRequest request, String headerValue) {
+        if (request != null
+                && request.getAttribute(AdminRequestAttributes.FIREBASE_EMAIL) != null) {
+            return true;
+        }
+        return authorize(headerValue);
     }
 }
