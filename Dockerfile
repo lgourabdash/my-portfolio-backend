@@ -1,8 +1,14 @@
-# Use Java 17
-FROM openjdk:17-jdk-slim
+# Build stage
+FROM eclipse-temurin:17-jdk-jammy AS build
+WORKDIR /app
+COPY pom.xml .
+COPY src ./src
+COPY .mvn .mvn
+COPY mvnw .
+RUN chmod +x mvnw && ./mvnw -q -DskipTests package
 
-# Copy jar file
-COPY target/*.jar app.jar
-
-# Run app
-ENTRYPOINT ["java","-jar","/app.jar"]
+# Runtime
+FROM eclipse-temurin:17-jre-jammy
+WORKDIR /app
+COPY --from=build /app/target/*.jar app.jar
+ENTRYPOINT ["java", "-jar", "/app/app.jar"]

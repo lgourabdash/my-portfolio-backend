@@ -17,7 +17,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
-@CrossOrigin(originPatterns = { "http://localhost:*", "http://127.0.0.1:*" }, maxAge = 3600)
 @RestController
 @RequestMapping("/api/profile")
 public class PortfolioAttachmentController {
